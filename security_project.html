@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en cn" xml:lang="en cn">
+<head>
+<!-- 2021-01-16 Sat 21:08 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Security Projects</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.gtrun.org/theme/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Security Projects</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgf22ef3c">1. Security Awesome List</a>
+<ul>
+<li><a href="#org9de6e0c">1.1. Hack-with-Github/Awesome-Hacking: A collection of various awesome lists for hackers, pentesters and security researchers</a></li>
+<li><a href="#org13678b5">1.2. security-groups · GitHub Topics</a></li>
+</ul>
+</li>
+<li><a href="#org34660ef">2. Security Documents</a></li>
+<li><a href="#orgb7b1f34">3. Awake Security</a></li>
+<li><a href="#orge65bc0b">4. windows</a>
+<ul>
+<li><a href="#orge4c4fe6">4.1. Windows-Secure-Host-Baseline/SecGuide.adml at master · nsacyber/Windows-Secure-Host-Baseline</a></li>
+</ul>
+</li>
+<li><a href="#orgb9ad69c">5. Network attack detection</a>
+<ul>
+<li><a href="#orgced26f4">5.1. Detecting C2 Activity</a>
+<ul>
+<li><a href="#org42396b8">5.1.1. Onion-Zeek-RITA: Improving Network Visibility and Detecting C2 Activity</a></li>
+</ul>
+</li>
+<li><a href="#org5bcad12">5.2. Shellshock attack (software bug)</a>
+<ul>
+<li><a href="#org181bfd2">5.2.1. corelight/bro-shellshock: ShellShock attack and exploit detector for Bro.</a></li>
+</ul>
+</li>
+<li><a href="#org7b59887">5.3. Kaspersky Anti-Virus</a></li>
+</ul>
+</li>
+<li><a href="#orgba45ace">6. Digital Forensics tools</a>
+<ul>
+<li><a href="#orgdadb9b1">6.1. yampelo/beagle: Beagle is an incident response and digital forensics tool which transforms security logs and data into graphs.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="DAG">DAG</span></span></a></li>
+<li><a href="#org84a0c4d">6.2. Velocidex/velociraptor: Digging Deeper&#x2026;.</a></li>
+</ul>
+</li>
+<li><a href="#org71022df">7. Network Security tools</a>
+<ul>
+<li><a href="#org4a55d74">7.1. m57/dnsteal: DNS Exfiltration tool for stealthily sending files over DNS requests.</a></li>
+</ul>
+</li>
+<li><a href="#org9d2abe3">8. Malware Analyst</a>
+<ul>
+<li><a href="#org7621f05">8.1. Malware Must Die!</a></li>
+<li><a href="#orge81979b">8.2. mgoffin/malwarecookbook: Malware Analyst's Cookbook stuffs</a></li>
+<li><a href="#org9b9067d">8.3. ctxis/CAPE: Malware Configuration And Payload Extraction</a></li>
+<li><a href="#org7f7842f">8.4. Malware resources</a>
+<ul>
+<li><a href="#orgfd736fa">8.4.1. tatsui-geek/malware-traffic-analysis.net: Download pcap files from http://www.malware-traffic-analysis.net/</a></li>
+</ul>
+</li>
+<li><a href="#orgbb4d2ef">8.5. Malware Application</a>
+<ul>
+<li><a href="#orgb2b12f0">8.5.1. JarryShaw/mad: Malicious Application Detector </a></li>
+<li><a href="#org2698b7f">8.5.2. Cisco-Talos/clamav-devel: ClamAV Development - FAQ is here: https://github.com/Cisco-Talos/clamav-faq</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org3235073">9. Attchment Analyst</a>
+<ul>
+<li><a href="#orgef795b8">9.1. PDF analyzing</a>
+<ul>
+<li><a href="#org241f150">9.1.1. Analyzing PDF Malware - Part 1 | Trustwave | SpiderLabs | Trustwave</a></li>
+<li><a href="#orgfce5312">9.1.2. New Spear Phishing Campaign Impersonates VCs and PE Firms</a></li>
+<li><a href="#org3f0db13">9.1.3. Escape From PDF | Didier Stevens</a></li>
+<li><a href="#org96efcf9">9.1.4. PDF Tools | Didier Stevens</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org9b9ba4b">10. Honeypot</a>
+<ul>
+<li><a href="#orgffb18b4">10.1. cowrie/cowrie: Cowrie SSH/Telnet Honeypot http://cowrie.readthedocs.io</a></li>
+</ul>
+</li>
+<li><a href="#orgdf89793">11. Yara Rules</a>
+<ul>
+<li><a href="#orga44054b">11.1. plyara/plyara: Parse YARA rules and operate over them more easily.</a></li>
+</ul>
+</li>
+<li><a href="#orgb81521e">12. CyberSecurity Media</a>
+<ul>
+<li><a href="#orgb2b523b">12.1. Cybersecurity News and Articles — Medium</a></li>
+</ul>
+</li>
+<li><a href="#orgd4cb14e">13. Awesome Security Resources</a>
+<ul>
+<li><a href="#org0f648a7">13.1. Hack-with-Github/Awesome-Hacking: A collection of various awesome lists for hackers, pentesters and security researchers</a></li>
+</ul>
+</li>
+<li><a href="#orgabec179">14. USENIX | The Advanced Computing Systems Association</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf22ef3c" class="outline-2">
+<h2 id="orgf22ef3c"><span class="section-number-2">1</span> Security Awesome List</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org9de6e0c" class="outline-3">
+<h3 id="org9de6e0c"><span class="section-number-3">1.1</span> <a href="https://github.com/Hack-with-Github/Awesome-Hacking">Hack-with-Github/Awesome-Hacking: A collection of various awesome lists for hackers, pentesters and security researchers</a></h3>
+</div>
+
+<div id="outline-container-org13678b5" class="outline-3">
+<h3 id="org13678b5"><span class="section-number-3">1.2</span> <a href="https://github.com/topics/security-groups">security-groups · GitHub Topics</a></h3>
+</div>
+</div>
+<div id="outline-container-org34660ef" class="outline-2">
+<h2 id="org34660ef"><span class="section-number-2">2</span> Security Documents</h2>
+</div>
+<div id="outline-container-orgb7b1f34" class="outline-2">
+<h2 id="orgb7b1f34"><span class="section-number-2">3</span> <a href="https://github.com/awakesecurity">Awake Security</a></h2>
+</div>
+<div id="outline-container-orge65bc0b" class="outline-2">
+<h2 id="orge65bc0b"><span class="section-number-2">4</span> windows</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orge4c4fe6" class="outline-3">
+<h3 id="orge4c4fe6"><span class="section-number-3">4.1</span> <a href="https://github.com/nsacyber/Windows-Secure-Host-Baseline/blob/master/Windows/Group%20Policy%20Templates/en-US/SecGuide.adml">Windows-Secure-Host-Baseline/SecGuide.adml at master · nsacyber/Windows-Secure-Host-Baseline</a></h3>
+</div>
+</div>
+<div id="outline-container-orgb9ad69c" class="outline-2">
+<h2 id="orgb9ad69c"><span class="section-number-2">5</span> Network attack detection</h2>
+<div class="outline-text-2" id="text-5">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:20] </span></span> -&gt; <a href="../network/network.html#ID-7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e">Network Security SMTP</a></li>
+</ul>
+</div>
+
+<div id="outline-container-orgced26f4" class="outline-3">
+<h3 id="orgced26f4"><span class="section-number-3">5.1</span> Detecting C2 Activity</h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-org42396b8" class="outline-4">
+<h4 id="org42396b8"><span class="section-number-4">5.1.1</span> <a href="https://www.sans.org/reading-room/whitepapers/detection/onion-zeek-rita-improving-network-visibility-detecting-c2-activity-38755">Onion-Zeek-RITA: Improving Network Visibility and Detecting C2 Activity</a></h4>
+<div class="outline-text-4" id="text-5-1-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:01] </span></span> &lt;- <a href="awesome-zeek.html#ID-03eba66a-6264-474e-8126-b13ff96371f7">Zeek Script SSL</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5bcad12" class="outline-3">
+<h3 id="org5bcad12"><span class="section-number-3">5.2</span> Shellshock attack (software bug)</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+Shellshock, also known as Bashdoor, is a family of security bugs in the Unix Bash shell, the first of which was disclosed on 24 September 2014. Shellshock could enable an attacker to cause Bash to execute arbitrary commands and gain unauthorized access to many Internet-facing services, such as web servers, that use Bash to process requests. On 12 September 2014, Stéphane Chazelas informed Bash's maintainer Chet Ramey of his discovery of the original bug, which he called "Bashdoor".
+</p>
+</div>
+<div id="outline-container-org181bfd2" class="outline-4">
+<h4 id="org181bfd2"><span class="section-number-4">5.2.1</span> <a href="https://github.com/corelight/bro-shellshock">corelight/bro-shellshock: ShellShock attack and exploit detector for Bro.</a></h4>
+<div class="outline-text-4" id="text-5-2-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:12] </span></span> &lt;- <a href="awesome-zeek.html#ID-5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa">Zeek Script</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org7b59887" class="outline-3">
+<h3 id="org7b59887"><span class="section-number-3">5.3</span> Kaspersky Anti-Virus</h3>
+<div class="outline-text-3" id="text-5-3">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 02:33] </span></span> &lt;- <a href="awesome-zeek.html#ID-41bcc7f1-246a-4dc1-bec4-f958b2a5b15e">initconf/detect-kaspersky: Bro package to detect kaspersky anti-virus in your network</a></li>
+</ul>
+<p>
+Kaspersky Anti-Virus (Russian: Антивирус Касперского (Antivirus Kasperskogo); formerly known as AntiViral Toolkit Pro; often referred to as KAV) is a proprietary antivirus program developed by Kaspersky Lab. It is designed to protect users from malware and is primarily designed for computers running Microsoft Windows and macOS, although a version for Linux is available for business consumers.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgba45ace" class="outline-2">
+<h2 id="orgba45ace"><span class="section-number-2">6</span> Digital Forensics tools</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orgdadb9b1" class="outline-3">
+<h3 id="orgdadb9b1"><span class="section-number-3">6.1</span> <a href="https://github.com/yampelo/beagle">yampelo/beagle: Beagle is an incident response and digital forensics tool which transforms security logs and data into graphs.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="DAG">DAG</span></span></h3>
+</div>
+<div id="outline-container-org84a0c4d" class="outline-3">
+<h3 id="org84a0c4d"><span class="section-number-3">6.2</span> <a href="https://github.com/Velocidex/velociraptor">Velocidex/velociraptor: Digging Deeper&#x2026;.</a></h3>
+</div>
+</div>
+<div id="outline-container-org71022df" class="outline-2">
+<h2 id="org71022df"><span class="section-number-2">7</span> Network Security tools</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org4a55d74" class="outline-3">
+<h3 id="org4a55d74"><span class="section-number-3">7.1</span> <a href="https://github.com/m57/dnsteal">m57/dnsteal: DNS Exfiltration tool for stealthily sending files over DNS requests.</a></h3>
+<div class="outline-text-3" id="text-7-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 15:52] </span></span> -&gt; <a href="../network/network.html#ID-1218671f-c69e-4e60-b2b9-14a75c48d255">Network DNS</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9d2abe3" class="outline-2">
+<h2 id="org9d2abe3"><span class="section-number-2">8</span> Malware Analyst</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org7621f05" class="outline-3">
+<h3 id="org7621f05"><span class="section-number-3">8.1</span> <a href="https://blog.malwaremustdie.org/">Malware Must Die!</a></h3>
+</div>
+<div id="outline-container-orge81979b" class="outline-3">
+<h3 id="orge81979b"><span class="section-number-3">8.2</span> <a href="https://github.com/mgoffin/malwarecookbook">mgoffin/malwarecookbook: Malware Analyst's Cookbook stuffs</a></h3>
+</div>
+<div id="outline-container-org9b9067d" class="outline-3">
+<h3 id="org9b9067d"><span class="section-number-3">8.3</span> <a href="https://github.com/ctxis/CAPE">ctxis/CAPE: Malware Configuration And Payload Extraction</a></h3>
+</div>
+<div id="outline-container-org7f7842f" class="outline-3">
+<h3 id="org7f7842f"><span class="section-number-3">8.4</span> Malware resources</h3>
+<div class="outline-text-3" id="text-8-4">
+</div>
+<div id="outline-container-orgfd736fa" class="outline-4">
+<h4 id="orgfd736fa"><span class="section-number-4">8.4.1</span> <a href="https://github.com/tatsui-geek/malware-traffic-analysis.net">tatsui-geek/malware-traffic-analysis.net: Download pcap files from http://www.malware-traffic-analysis.net/</a></h4>
+<div class="outline-text-4" id="text-8-4-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-22 Sun 16:43] </span></span> -&gt; <a href="../network/network.html#ID-77d0758f-61f9-481a-98bd-c6e504cbc378">Pcap Resources</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbb4d2ef" class="outline-3">
+<h3 id="orgbb4d2ef"><span class="section-number-3">8.5</span> Malware Application</h3>
+<div class="outline-text-3" id="text-8-5">
+</div>
+<div id="outline-container-orgb2b12f0" class="outline-4">
+<h4 id="orgb2b12f0"><span class="section-number-4">8.5.1</span> <a href="https://github.com/JarryShaw/mad">JarryShaw/mad: Malicious Application Detector </a></h4>
+</div>
+<div id="outline-container-org2698b7f" class="outline-4">
+<h4 id="org2698b7f"><span class="section-number-4">8.5.2</span> <a href="https://github.com/Cisco-Talos/clamav-devel/tree/dev/0.104">Cisco-Talos/clamav-devel: ClamAV Development - FAQ is here: https://github.com/Cisco-Talos/clamav-faq</a></h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3235073" class="outline-2">
+<h2 id="org3235073"><span class="section-number-2">9</span> Attchment Analyst</h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-orgef795b8" class="outline-3">
+<h3 id="orgef795b8"><span class="section-number-3">9.1</span> PDF analyzing</h3>
+<div class="outline-text-3" id="text-9-1">
+</div>
+<div id="outline-container-org241f150" class="outline-4">
+<h4 id="org241f150"><span class="section-number-4">9.1.1</span> <a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/analyzing-pdf-malware-part-1/">Analyzing PDF Malware - Part 1 | Trustwave | SpiderLabs | Trustwave</a></h4>
+</div>
+<div id="outline-container-orgfce5312" class="outline-4">
+<h4 id="orgfce5312"><span class="section-number-4">9.1.2</span> <a href="https://info.phishlabs.com/blog/spear-phishing-campaign-impersonates-vcs-and-pe-firms">New Spear Phishing Campaign Impersonates VCs and PE Firms</a></h4>
+</div>
+<div id="outline-container-org3f0db13" class="outline-4">
+<h4 id="org3f0db13"><span class="section-number-4">9.1.3</span> <a href="https://blog.didierstevens.com/2010/03/29/escape-from-pdf/">Escape From PDF | Didier Stevens</a></h4>
+</div>
+<div id="outline-container-org96efcf9" class="outline-4">
+<h4 id="org96efcf9"><span class="section-number-4">9.1.4</span> <a href="https://blog.didierstevens.com/programs/pdf-tools/">PDF Tools | Didier Stevens</a></h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org9b9ba4b" class="outline-2">
+<h2 id="org9b9ba4b"><span class="section-number-2">10</span> Honeypot</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-orgffb18b4" class="outline-3">
+<h3 id="orgffb18b4"><span class="section-number-3">10.1</span> <a href="https://github.com/cowrie/cowrie">cowrie/cowrie: Cowrie SSH/Telnet Honeypot http://cowrie.readthedocs.io</a></h3>
+</div>
+</div>
+<div id="outline-container-orgdf89793" class="outline-2">
+<h2 id="orgdf89793"><span class="section-number-2">11</span> Yara Rules</h2>
+<div class="outline-text-2" id="text-11">
+</div>
+<div id="outline-container-orga44054b" class="outline-3">
+<h3 id="orga44054b"><span class="section-number-3">11.1</span> <a href="https://github.com/plyara/plyara">plyara/plyara: Parse YARA rules and operate over them more easily.</a></h3>
+</div>
+</div>
+<div id="outline-container-orgb81521e" class="outline-2">
+<h2 id="orgb81521e"><span class="section-number-2">12</span> CyberSecurity Media</h2>
+<div class="outline-text-2" id="text-12">
+</div>
+<div id="outline-container-orgb2b523b" class="outline-3">
+<h3 id="orgb2b523b"><span class="section-number-3">12.1</span> <a href="https://medium.com/topic/cybersecurity">Cybersecurity News and Articles — Medium</a></h3>
+</div>
+</div>
+<div id="outline-container-orgd4cb14e" class="outline-2">
+<h2 id="orgd4cb14e"><span class="section-number-2">13</span> Awesome Security Resources</h2>
+<div class="outline-text-2" id="text-13">
+</div>
+<div id="outline-container-org0f648a7" class="outline-3">
+<h3 id="org0f648a7"><span class="section-number-3">13.1</span> <a href="https://github.com/Hack-with-Github/Awesome-Hacking">Hack-with-Github/Awesome-Hacking: A collection of various awesome lists for hackers, pentesters and security researchers</a></h3>
+</div>
+</div>
+<div id="outline-container-orgabec179" class="outline-2">
+<h2 id="orgabec179"><span class="section-number-2">14</span> <a href="https://www.usenix.org/">USENIX | The Advanced Computing Systems Association</a></h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2020-11-28 Sat</p>
+<p class="date">Created: 2021-01-16 Sat 21:08</p>
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.0.50 (<a href="https://orgmode.org">Org</a> mode 9.5)</p>
+</div>
+</body>
+</html>
