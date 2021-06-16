@@ -1,5 +1,5 @@
 #+TITLE: Cloud Security
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-11 Thu 14:19
 

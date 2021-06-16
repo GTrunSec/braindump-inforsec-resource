@@ -1,5 +1,5 @@
 #+TITLE: Red Team
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-21 Mon 15:46
 
