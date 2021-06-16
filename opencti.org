@@ -1,0 +1,8 @@
+#+TITLE: OpenCTI
+#+AUTHOR: Guangtao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-06-13 Sun 23:56
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* [[https://www.notion.so/Manual-deployment-b911beba44234f179841582ab3894bb1][Manual deployment]]
