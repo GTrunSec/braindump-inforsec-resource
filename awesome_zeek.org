@@ -1,5 +1,5 @@
 #+TITLE: Awesome Zeek
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-22 Sun
 
@@ -42,6 +42,8 @@
 :ID:       5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa
 :BRAIN_CHILDREN: 5f3948fa-c19f-4ec4-8a42-0f2c66acec7e
 :END:
+
+ - [2021-06-16 Wed 22:10] -> [[id:da1259fd-28bd-42ed-9d36-3dd54f095d70][New Ways to Speed Up Zeek Script Execution - YouTube]]
 - [[https://github.com/zeek/packages/blob/master/aggregate.meta][packages/aggregate.meta at master · zeek/packages]]
 
  - [2020-11-22 Sun 02:12] -> [[id:90bd1a24-716a-4eb2-a292-0f970f69748c][corelight/bro-shellshock: ShellShock attack and exploit detector for Bro.]]
@@ -328,15 +330,6 @@ This package adds the _node_name field to Zeek logs to indicate which node gener
 :END:
  - [2020-11-22 Sun 02:10] -> [[id:0a49951d-6f1c-46cc-a7c4-8b8391430ad6][Zeek logs to database]]
 ** [[https://github.com/ncsa/bro-zeromq-writer][ncsa/bro-zeromq-writer: Bro plugin that provides a ZeroMQ log writer.]]
-* Zeek Con
-:PROPERTIES:
-:ID:       c07a6d15-a487-40c8-b029-a82c6e722473
-:END:
-** Virtual ZeekWeek
-*** [[https://www.youtube.com/watch?v=9ctRt-vfvns&feature=youtu.be][Virtual ZeekWeek 2020: Day 3 - YouTube]]
-** Zeek Con18
-*** [[https://github.com/tenzir/events/tree/master/brocon18][events/brocon18 at master · tenzir/events]]
-
 * Zeek 3rdparty Support
 ** Zeek to sandbox
 *** [[https://github.com/joesecurity/Joe-Sandbox-Bro][joesecurity/Joe-Sandbox-Bro: JoeSandbox-Bro is a simple bro script which extracts files from your internet connection and analyzes them automatically on Joe Sandbox]]
@@ -382,5 +375,19 @@ IVRE (Instrument de veille sur les réseaux extérieurs) or DRUNK (Dynamic Recon
 
 * Zeek Event
 
+** [[https://www.youtube.com/watch?v=iMv0I8wh_AM][New Ways to Speed Up Zeek Script Execution - YouTube]]
+:PROPERTIES:
+:ID:       da1259fd-28bd-42ed-9d36-3dd54f095d70
+:END:
+
+- [2021-06-16 Wed 22:10] <- [[id:5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa][Zeek Script]]
 ** [[https://www.sans.org/webcasts/tech-tuesday-workshop-advanced-zeek-brim-zeek-agent-spicy-zeek-packages-117550?msc=blog-tech-tuesday][Tech Tuesday Workshop: Advanced Zeek Brim, Zeek agent, Spicy, and new Zeek packages - SANS Institute]]
 
+* Zeek Con
+:PROPERTIES:
+:ID:       c07a6d15-a487-40c8-b029-a82c6e722473
+:END:
+** Virtual ZeekWeek
+*** [[https://www.youtube.com/watch?v=9ctRt-vfvns&feature=youtu.be][Virtual ZeekWeek 2020: Day 3 - YouTube]]
+** Zeek Con18
+*** [[https://github.com/tenzir/events/tree/master/brocon18][events/brocon18 at master · tenzir/events]]
