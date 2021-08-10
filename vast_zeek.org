@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       18513d9a-0b09-4a90-8c6f-dccb1fc599f9
+:END:
+#+TITLE: Vast to Zeek
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-05 Thu 13:05
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* Workflow :ATTACH:
+
+
+#+NAME: image
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:20210805_141932screenshot.png]]
+
+
+* Broker Plugin
+:PROPERTIES:
+:ID:       eb964b7b-8e2d-4e00-be04-847247ee9337
+:END:
+
+#+begin_src zeek
+event zeek_init()
+  {
+  Broker::listen(Broker::default_listen_address, Broker::default_port,
+                 Broker::default_listen_retry);
+  }
+#+end_src

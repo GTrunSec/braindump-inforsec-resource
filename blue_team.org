@@ -1,3 +1,7 @@
+:PROPERTIES:
+:ID:       9d72edae-0adb-4dd1-b673-052b57aefa14
+:public: true
+:END:
 #+TITLE: Blue Team
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org

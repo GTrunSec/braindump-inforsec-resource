@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a488700f-7abf-4248-bbaf-3fb8f6d90421
+:END:
 #+TITLE: Red Team
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org

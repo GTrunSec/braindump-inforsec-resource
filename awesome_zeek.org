@@ -1,24 +1,31 @@
+:PROPERTIES:
+:ID:       b3f68b16-e332-4e43-8631-acddae2af9e4
+:public: true
+:END:
 #+TITLE: Awesome Zeek
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-22 Sun
-
-
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: analyzer(a) agent(A) packet(P) package(p) windows(w) linux(L) learn(l)
 
 
-- tags :: [[file:nsm.org][Network monitoring]]
-  
-- [[https://app.slack.com/client/TSXGCHZE1/CSZBXF6TH][Slack | general | Zeek | 1 new item]]
+- tags ::
+
+- [[https://app.slack.com/client/TSXGCHZE1/CSZBXF6TH][Slack | general | Zeek]]
 
 - [[http://mailman.icsi.berkeley.edu/pipermail/zeek/][The Zeek Archives]] [Zeek mail_list]
 
-
-* Zeek installation
+* Installation
+:PROPERTIES:
+:ID:       c6c228e4-53a4-4dc1-b618-c78219b2df45
+:END:
 ** [[https://www.ericooi.com/zeekurity-zen-part-i-how-to-install-zeek-on-centos-8/#comment-1670][Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com]]
 *** [[https://www.ericooi.com/zeekurity-zen-zeries/][Zeekurity Zen Zeries - ericooi.com]]
-* zeek documents logging
+* Documents
+:PROPERTIES:
+:ID:       4560a792-0255-408b-b3fe-adb28d096dda
+:END:
 - [[http://gauss.ececs.uc.edu/Courses/c6055/pdf/bro_log_vars.pdf][Slide 1]]
 *** [[https://docs.zeek.org/en/current/examples/logs/][Logging — Zeek User Manual v3.2.2]]
 :PROPERTIES:
@@ -37,26 +44,25 @@
 :ID:       760d9f5c-7444-45b2-b20c-507239ac09ac
 :END:
 - [[id:d546671e-b5ed-435f-83a5-1aac18e26b52][Logging — Zeek User Manual v3.2.2]]
-* Zeek Script
+* Zeek Scripts
 :PROPERTIES:
 :ID:       5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa
 :BRAIN_CHILDREN: 5f3948fa-c19f-4ec4-8a42-0f2c66acec7e
 :END:
 
+ - [2021-08-04 Wed 00:07] ->  [[https://github.com/zeek/packages/blob/master/aggregate.meta][packages/aggregate.meta at master · zeek/packages]]
  - [2021-06-16 Wed 22:10] -> [[id:da1259fd-28bd-42ed-9d36-3dd54f095d70][New Ways to Speed Up Zeek Script Execution - YouTube]]
-- [[https://github.com/zeek/packages/blob/master/aggregate.meta][packages/aggregate.meta at master · zeek/packages]]
-
  - [2020-11-22 Sun 02:12] -> [[id:90bd1a24-716a-4eb2-a292-0f970f69748c][corelight/bro-shellshock: ShellShock attack and exploit detector for Bro.]]
 
 ** Zeek Script Documents
 *** [[https://corelight.blog/2020/09/21/give-me-my-stats/][Give me my stats!]]
-** Zeek Script tranning
+** Zeek Script Tranning
 :PROPERTIES:
 :ID:       8f5f972d-f5a3-4eb7-988f-6fdb0c217edb
 :END:
 *** [[https://github.com/zeek/zeek-training][zeek/zeek-training: Zeek Training Materials/Products]]
 
-** ZeeK script DNS
+** Zeek Script DNS
 :PROPERTIES:
 :ID:       6b5c4c04-7664-4195-82dd-d333bb63334f
 :END:
@@ -224,13 +230,13 @@ Microsoft sends diagnostic information back to themselves through a mechism name
 
 *** TODO [[https://github.com/binorassocies/bro-scripts/tree/master/smtp_htmllinks][bro-scripts/smtp_htmllinks at master · binorassocies/bro-scripts]] :learn:
 
-** Zeek attack detection
+** Zeek Attack Detection
 
 *** [[https://github.com/initconf/sip-attacks][initconf/sip-attacks: zeek Package to detect attacks in SIP protocol]]
 
 *** TODO [[https://github.com/descendency/broscripts][descendency/broscripts: A bunch of random bro scripts as I try to learn Bro Scripting]]
 
-** Zeek virus detection
+** Zeek Virus Detection
 *** [[https://github.com/initconf/detect-kaspersky/][initconf/detect-kaspersky: Bro package to detect kaspersky anti-virus in your network]]
 :PROPERTIES:
 :ID:       41bcc7f1-246a-4dc1-bec4-f958b2a5b15e
@@ -257,7 +263,7 @@ This package attempts to detect scanners searching for the VENOM vulnerability. 
 - [2020-11-22 Sun 02:26] -> [[id:7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e][Network Security SMTP]]
 ** Zeek Script Counter
 *** [[https://github.com/0xxon/zeek-sumstats-counttable][0xxon/zeek-sumstats-counttable: COUNTTABLE type for Zeek (Bro) sumstats that sums independently for string buckets]]
-* Zeek Plugin or analyzer
+* Zeek Plugin Or Analyzer
 :PROPERTIES:
 :ID:       5f3948fa-c19f-4ec4-8a42-0f2c66acec7e
 :BRAIN_PARENTS: 5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa

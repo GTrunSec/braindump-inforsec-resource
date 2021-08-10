@@ -1,4 +1,7 @@
-#+TITLE: Network monitoring
+:PROPERTIES:
+:ID:       d0492361-183a-4291-bb68-5aa500d08142
+:END:
+#+TITLE: Network Monitoring
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
@@ -56,6 +59,7 @@ _ [[file:awesome_zeek.org][Awesome Zeek]]
 :END:
  - [2020-11-22 Sun 16:13] -> [[id:71f7d9c3-0769-4f36-88c2-72a2e185a7cc][zeek Intel feed]]
 ** [[https://github.com/P3t3rp4rk3r/Threat_Intelligence][P3t3rp4rk3r/Threat_Intelligence: Threat-Intelligence Feeds & Tools & Frameworks]]
+** [[https://github.com/microsoft/msticpy][microsoft/msticpy: Microsoft Threat Intelligence Security Tools]]
 * Windows Sysmon
 **  https://github.com/SwiftOnSecurity/sysmon-config
 **  https://github.com/JPCERTCC/SysmonSearch
@@ -63,4 +67,3 @@ _ [[file:awesome_zeek.org][Awesome Zeek]]
 * [[https://github.com/evilsocket/opensnitch][evilsocket/opensnitch: OpenSnitch is a GNU/Linux port of the Little Snitch application firewall]]
 
 * [[https://www.counteractive.net/][Incident Response, Hunting, Infosec Consulting - Counteractive Security]]
-

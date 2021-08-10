@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       dc3677ac-fe1d-4942-86d2-57d1ba09b3b1
+:END:
+#+TITLE: Broker
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-05 Thu 18:38
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+
+* [[https://github.com/zeek/broker][zeek/broker: Zeek's Messaging Library]]
+
+
+
+* [[https://docs.zeek.org/projects/broker/en/master/][Broker User Manual — Broker User Manual]]
+* [[https://github.com/0snap/broker-application-templates][0snap/broker-application-templates: Templates for writing applications using Zeek NSM communication library Broker]]

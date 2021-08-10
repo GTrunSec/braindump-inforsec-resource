@@ -1,11 +1,10 @@
-#+TITLE: Code Security & Secure Code Analysis
+:PROPERTIES:
+:ID:       8a14b8c9-d621-4a7d-9930-5034b1830634
+:END:
+#+TITLE: Secure Code Analysis
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-01 Thu 14:23
-
-
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-
-
 
 * Python

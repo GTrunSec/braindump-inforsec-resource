@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       bc84d240-27c8-4214-99c3-5b296b6a8265
+:END:
 #+TITLE: Zeek Spicy
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
@@ -6,8 +9,7 @@
 
 
 
-- tags :: [[file:awesome_zeek.org][Awesome Zeek]]
-
+- tags :: [[id:b3f68b16-e332-4e43-8631-acddae2af9e4][Awesome Zeek]]
 
 
 * [[https://zeek.org/2021/04/20/zeeks-ipsec-protocol-analyzer/][Zeek: Zeek’s IPSec Protocol Analyzer]]
