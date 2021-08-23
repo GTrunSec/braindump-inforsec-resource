@@ -4,7 +4,7 @@
 #+DATE: 2020-11-28 Sat
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 #+TAGS: DAG(d)
 
 * [[https://github.com/sundowndev/hacker-roadmap][sundowndev/hacker-roadmap: Your beginner pen-testing start guide. A guide for amateur pen testers and a collection of hacking tools, resources and references to practice ethical hacking and web security.]]
@@ -26,7 +26,7 @@
 :ID:       42527e70-7f59-45fd-951e-1a77f432ec4e
 :END:
  - [2020-11-22 Sun 02:20] -> [[id:7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e][Network Security SMTP]]
-   
+
 ** Detecting C2 Activity
 *** [[https://www.sans.org/reading-room/whitepapers/detection/onion-zeek-rita-improving-network-visibility-detecting-c2-activity-38755][Onion-Zeek-RITA: Improving Network Visibility and Detecting C2 Activity]]
 :PROPERTIES:

@@ -2,6 +2,6 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-04 Wed 15:39
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 * [[https://www.youtube.com/watch?v=-rSqbgI7oZM][how Hackers SNiFF (capture) network traffic // MiTM attack - YouTube]]

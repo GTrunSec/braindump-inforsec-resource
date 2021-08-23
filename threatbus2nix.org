@@ -1,16 +1,20 @@
 :PROPERTIES:
-:ID:       480bbc3b-aca9-41e8-b0db-e4306f6500b5
+:ID: 480bbc3b-aca9-41e8-b0db-e4306f6500b5
+:public: true
 :END:
 #+TITLE: ThreatBus to Nix
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-05 Thu 18:46
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 - tags :: [[id:20c4286f-fe25-4a3a-a962-7536c5aa813e][Tenzir ThreatBus]]
 
 * [[https://github.com/GTrunSec/threatbus2nix][GTrunSec/threatbus2nix: https://github.com/tenzir/threatbus.git]]
-
+:PROPERTIES:
+:ID:       21fc3b51-a5f2-4e3f-90ba-591e6a5c2696
+:END:
+- [2021-08-13 Fri 00:03] <- [[id:5b6f0b04-00f6-4fe1-ab05-48e85c310f15][tenzir/threatbus: 🚌 A threat intelligence dissemination layer for open-source security tools.]]
 * ThreatBus Plugins to Nix[4/7]
 :PROPERTIES:
 :ID:       cce32035-f311-439d-8e2e-4d9e338d73a7
@@ -18,15 +22,9 @@
 
 - [2021-08-05 Thu 18:57] <- [[id:b43520d7-f2b9-46c0-bde3-5418487d7245][Threatbus Plugins]]
 ** TODO cif3
-
 ** DONE inmem
-
 ** DONE Zeek
-
 ** DONE file_benchmark
-
 ** DONE ZeroMQ
-
 ** TODO rabbitmq
-
 ** TODO misp

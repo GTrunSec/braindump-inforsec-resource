@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       eb96ccc5-bdd1-47d2-abb5-39fe9a077422
+:END:
+#+TITLE: Threat Hunting
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-20 Fri 00:09
+
+
+
+
+* Materials
+
+** [[https://github.com/filipi86/Threat-Hunting][filipi86/Threat-Hunting: The purpose of these documents, it was to execute several efficiency and detection tests in some endpoint solutions, this document brings the result of the defensive security analysis with an offensive mindset performed in the execution many different Malwares in our lab environment.]]
+
+** [[https://github.com/activecm/threat-hunting-labs][activecm/threat-hunting-labs: Collection of walkthroughs on various threat hunting techniques]]
+
+** [[https://github.com/threathunternotebook/THOR-Training-Center][threathunternotebook/THOR-Training-Center: The Threat Hunting Operations and Response (THOR) Training Center will be coming soon. First Release will be an Alpha. This will be in a virtual machine format that can be used in Vmware Player, Workstation, or Fusion. Completely built with Open Source tools, Lab Book, Examples and Answers.]]

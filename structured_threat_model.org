@@ -1,9 +1,11 @@
-#+TITLE: Structured Threat Model
+:PROPERTIES:
+:ID: 9b67d6ac-33a1-4f53-ae5c-2c6666fc2790
+:public: true
+:END:
+#+TITLE: STIX/Structured Threat Model
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-29 Thu 20:03
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-
 
 
 * [[https://oasis-open.github.io/cti-documentation/stix/intro.html][Introduction to STIX]]
@@ -13,4 +15,10 @@
 
 - [2021-04-29 Thu 20:07] <- [[id:7a495051-c06e-4f64-905a-e1d2bfeed200][Threatbus Message Format Mapping]]
 - [2021-04-29 Thu 20:53] -> [[https://github.com/oasis-open/cti-python-stix2][oasis-open/cti-python-stix2: OASIS TC Open Repository: Python APIs for STIX 2]]
-- [2021-06-18 Fri 12:24] -> [[https://github.com/oasis-open/cti-python-stix2][oasis-open/cti-python-stix2: OASIS TC Open Repository: Python APIs for STIX 2]]
+* CTI
+:PROPERTIES:
+:ID:       20fdb06a-9ea9-45b6-b0b8-a6d67e8b28ae
+:END:
+** [[https://github.com/mitre/cti][mitre/cti: Cyber Threat Intelligence Repository expressed in STIX 2.0]]
+** [[https://github.com/TedDriggs/cti][TedDriggs/cti: Cyber threat intelligence crates for Rust]] :rust:
+* [[https://github.com/tenzir/stix-hackathon][“tenzir/stix-hackathon: Type-safe STIX 2.1 in Rust”🔊]] :: [[id:5f4f7298-2181-46b4-864c-a2a5b0f9bb99][Rust Project]]

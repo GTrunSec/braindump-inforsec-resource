@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       8504a9c3-1195-402e-8983-df9faff306ce
+:END:
+#+TITLE: SElinux
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 14:06
+
+
+
+* [[https://www.redhat.com/en/topics/linux/what-is-selinux][What is SELinux?]]

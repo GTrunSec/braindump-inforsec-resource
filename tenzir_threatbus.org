@@ -6,12 +6,17 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-28 Wed 16:53
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 - tags :: [[id:c6ef88d4-e5d9-484d-ab81-a9da1aca7186][Tenzir Vast]]
 
 * [[https://github.com/tenzir/threatbus][tenzir/threatbus: 🚌 A threat intelligence dissemination layer for open-source security tools.]]
+:PROPERTIES:
+:ID:       5b6f0b04-00f6-4fe1-ab05-48e85c310f15
+:END:
+ - [2021-08-13 Fri 00:03] -> [[id:21fc3b51-a5f2-4e3f-90ba-591e6a5c2696][GTrunSec/threatbus2nix: https://github.com/tenzir/threatbus.git]]
+
 * [[https://docs.tenzir.com/threatbus/quick-start/introduction][Introduction | Tenzir Documentation]]
 :PROPERTIES:
 :ID:       8e535fed-6430-4358-8bed-8038bf77ba79
@@ -19,8 +24,9 @@
  - [2021-04-29 Thu 19:36] -> [[id:ab2e1224-5dcd-495d-aea3-ead6a851cda8][Zeek Threat Intelligence(Intel)]]
 ** Installation
 *** [[https://docs.tenzir.com/threatbus/deployment/docker][Docker | Tenzir Documentation]]
-*** https://github.com/tenzir/threatbus
-*** threatbus2nix
+*** https://github.com/tenzir/threatbus#installation
+
+
 * Threatbus Plugins
 :PROPERTIES:
 :id: b43520d7-f2b9-46c0-bde3-5418487d7245
@@ -30,7 +36,10 @@
  - [2021-04-29 Thu 20:09] -> [[https://docs.tenzir.com/threatbus/plugins/overview][Overview | Tenzir Documentation]]
 ** Threatbus Zmq App
 ** Threatbus Cif3
-** Threatbus Vast :: [[file:tenzir_vast.org][Tenzir Vast]]
+** Threatbus Vast
+
+to [[id:c6ef88d4-e5d9-484d-ab81-a9da1aca7186][Tenzir Vast]]
+
 ** Threatbus Zeek
 :PROPERTIES:
 :id: 61c1ce55-62d9-46e5-88f5-42214ee6b8ab
@@ -46,14 +55,8 @@
  - [2021-04-29 Thu 19:49] -> [[id:6213b79f-d559-472e-acc0-19b32cc550a8][MISP - Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing (formely known as Malware Information Sharing Platform)]]
  - [2021-04-29 Thu 20:17] -> [[https://github.com/MISP/PyMISP][MISP/PyMISP: Python library using the MISP Rest API]]
 
-#+begin_src sh :async t :exports both :results output
-pip install threatbus-misp[zmq]
-pip install threatbus-misp[kafka]
-#+end_src
-
-
-** Threatbus Inmem
-** Threatbus Rabbitmq
+** Threatbus Inmem #backbone
+** Threatbus Rabbitmq #backbone
 ** Threatbus Message Format Mapping
 :PROPERTIES:
 :ID:       7a495051-c06e-4f64-905a-e1d2bfeed200

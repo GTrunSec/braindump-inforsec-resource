@@ -4,7 +4,7 @@
 #+DATE: 2021-02-11 Thu 14:19
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 - tags :: [[file:security_project.org][Security Projects]]

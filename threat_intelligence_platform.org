@@ -1,9 +1,11 @@
+:PROPERTIES:
+:ID: cb4110b1-d334-409b-9538-1a3866774df6
+:public: true
+:END:
 #+TITLE:  Threat Intelligence Platform
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-29 Thu 19:09
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-
 
 
 * [[https://github.com/OpenCTI-Platform/opencti][OpenCTI-Platform/opencti: Open Cyber Threat Intelligence Platform]]
@@ -14,3 +16,4 @@
 - [2021-04-29 Thu 19:49] <- [[id:1145905f-46a6-416e-b1f6-7dba1136c2ff][Threatbus Misp]]
 ** MISP Installation
 *** TODO MISP to Nix
+* [[https://github.com/G-Research/siembol][G-Research/siembol: An open-source, real-time Security Information & Event Management tool based on big data technologies, providing a scalable, advanced security analytics framework.]]

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       3fc12f04-6c31-4312-b3ab-eff95dd1de06
+:END:
+#+TITLE: firejail
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 13:27
+
+
+
+
+* [[https://firejail.wordpress.com/][Firejail | security sandbox]]
+:PROPERTIES:
+:ID:       7f76703d-421e-4a1d-a4d5-337ffcf0dad9
+:END:
+ - [2021-08-19 Thu 16:45] -> [[id:d62b122d-3e0a-4b33-b6f2-b16ba3c2be58][Aaron Jones: Introduction To Firejail, AppArmor, and SELinux - YouTube]]

@@ -7,12 +7,12 @@
 #+DATE: 2020-11-28 Sat
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 #+TAGS: learn(l)
 
 - tags :: [[file:../network/network.org][Network]]
 
-* hardware
+* Hardware
 ** [[https://github.com/AnalogJ/scrutiny][AnalogJ/scrutiny: Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds]]
 * DNS
 ** [[https://github.com/StackExchange/dnscontrol][StackExchange/dnscontrol: Synchronize your DNS to multiple providers from a simple DSL]]
@@ -27,9 +27,10 @@
 ** [[https://www.wireshark.org/][Wireshark · Go Deep.]]
 ** [[https://github.com/brimsec/brim][brimsec/brim: Desktop application to efficiently search large packet captures and Zeek logs.]]
 _ [[file:awesome_zeek.org][Awesome Zeek]]
-* Red Team
+* Blue Team Platforms
 ** [[https://github.com/OpenCSPM/opencspm][OpenCSPM/opencspm: Open Cloud Security Posture Management Engine]]
-* time
+** [[https://github.com/G-Research/siembol][G-Research/siembol: An open-source, real-time Security Information & Event Management tool based on big data technologies, providing a scalable, advanced security analytics framework.]]
+* Time
 ** [[https://plaso.readthedocs.io/en/latest/sources/user/Log2Timeline-Perl-%28Legacy%29.html#new-method][Switching from Log2Timeline Perl (Legacy) to Plaso — Plaso (log2timeline) 20201007 documentation]]
 * NSM ELK Project
 :PROPERTIES:

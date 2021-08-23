@@ -6,7 +6,7 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-22 Sun
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 #+TAGS: analyzer(a) agent(A) packet(P) package(p) windows(w) linux(L) learn(l)
 
 
@@ -263,6 +263,8 @@ This package attempts to detect scanners searching for the VENOM vulnerability. 
 - [2020-11-22 Sun 02:26] -> [[id:7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e][Network Security SMTP]]
 ** Zeek Script Counter
 *** [[https://github.com/0xxon/zeek-sumstats-counttable][0xxon/zeek-sumstats-counttable: COUNTTABLE type for Zeek (Bro) sumstats that sums independently for string buckets]]
+** Zeek APR
+*** [[https://gist.github.com/Patrick-Kelley/12f986b6078e11560b517bb02baaf40d][ARP]]
 * Zeek Plugin Or Analyzer
 :PROPERTIES:
 :ID:       5f3948fa-c19f-4ec4-8a42-0f2c66acec7e

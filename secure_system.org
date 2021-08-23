@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       187ea583-8768-40b2-b0e6-8f6acf5cb082
+:END:
+#+TITLE: Secure System
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 14:04
+
+
+
+* Hardening Profiles
+:PROPERTIES:
+:ID:       ebcc7580-df9c-4424-8c84-c5d573d73604
+:END:
+
+** [[https://www.youtube.com/watch?v=JFjXvIwAeVI][Aaron Jones: Introduction To Firejail, AppArmor, and SELinux - YouTube]]
+:PROPERTIES:
+:ID:       d62b122d-3e0a-4b33-b6f2-b16ba3c2be58
+:END:
+- [2021-08-19 Thu 16:45] <- [[id:7f76703d-421e-4a1d-a4d5-337ffcf0dad9][Firejail | security sandbox]]

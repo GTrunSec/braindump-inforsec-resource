@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       b9195500-625a-4fa8-979e-b7f8c7b59d67
+:END:
+#+TITLE: Apparmor Profiles
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 14:05
+
+
+
+
+* [[https://apparmor.net/][AppArmor]]
+:PROPERTIES:
+:ID:       83ce55a6-e869-4e71-b13b-4bab5de15955
+:END:

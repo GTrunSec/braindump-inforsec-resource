@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       1d540e68-bb7a-4201-ace9-c67a36b9c0a8
+:END:
 #+TITLE: IoT Security
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-14 Thu 20:07
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 * [[https://github.com/OWASP/IoT-Security-Verification-Standard-ISVS][OWASP/IoT-Security-Verification-Standard-ISVS: OWASP IoT Security Verification Standard (ISVS)]]
