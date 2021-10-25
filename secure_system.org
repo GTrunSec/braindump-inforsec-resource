@@ -2,7 +2,7 @@
 :ID:       187ea583-8768-40b2-b0e6-8f6acf5cb082
 :END:
 #+TITLE: Secure System
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-18 Wed 14:04
 
@@ -17,4 +17,5 @@
 :PROPERTIES:
 :ID:       d62b122d-3e0a-4b33-b6f2-b16ba3c2be58
 :END:
+- [2021-09-24 Fri 22:29] <- [[id:83ce55a6-e869-4e71-b13b-4bab5de15955][AppArmor]]
 - [2021-08-19 Thu 16:45] <- [[id:7f76703d-421e-4a1d-a4d5-337ffcf0dad9][Firejail | security sandbox]]

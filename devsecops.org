@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       31bca99c-3db6-4171-845c-af994fda3a10
+:public: true
+:END:
+#+TITLE: DevSecOps
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-10-24 Sun 23:54
+
+
+- tags :: [[id:00bcd8d2-fe30-440e-8b43-107e22690cf9][DevOS]], [[id:b3509615-3fa3-4d99-81e2-a461db953075][DevOps Jobs]]
+
+* How to being a DevSecOps worker
+- [2021-10-24 Sun 23:59] -> [[id:b3509615-3fa3-4d99-81e2-a461db953075][DevOps Jobs]]
+
+* [[id:5d74cdc3-1311-49a7-ae17-13c1a6b76e6d][Learning DevSecOps]]
+
+* [[https://github.com/awslabs/aws-security-automation][awslabs/aws-security-automation: Collection of scripts and resources for DevSecOps and Automated Incident Response Security]]
+- [2021-10-25 Mon 02:40] -> [[id:b70900f9-cfd0-4ebe-84b0-60336b80f362][AWS]]
+
+* RoadMap
+
+** [[https://github.com/hahwul/DevSecOps][hahwul/DevSecOps: 🔱 Collection and Roadmap for everyone who wants DevSecOps. Hope your DevOps are more safe 😎]]

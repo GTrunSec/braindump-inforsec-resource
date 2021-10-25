@@ -2,7 +2,7 @@
 :ID:       8a14b8c9-d621-4a7d-9930-5034b1830634
 :END:
 #+TITLE: Secure Code Analysis
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-01 Thu 14:23
 

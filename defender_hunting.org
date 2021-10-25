@@ -1,5 +1,5 @@
 #+TITLE: Defender Hunting
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-03-17 Wed 15:38
 

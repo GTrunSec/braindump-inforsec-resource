@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       5d74cdc3-1311-49a7-ae17-13c1a6b76e6d
+:END:
+#+TITLE: Learning DevSecOps
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-10-25 Mon 02:32
+
+
+
+* [[https://github.com/hysnsec/DevSecOps-Studio][hysnsec/DevSecOps-Studio: DevSecOps Distribution - Virtual Environment to learn DevSecOps]]
+
+
+* Learing Materials
+** [[https://github.com/TaptuIT/awesome-devsecops][TaptuIT/awesome-devsecops: Curating the best DevSecOps resources and tooling.]]
+:PROPERTIES:
+:ID:       7229fcbf-c6f2-4971-b68f-4ad68d9e0f55
+:END:
+** [[https://github.com/chughes29/Cloud-DevSecOps-Learning/blob/main/Cloud%20%26%20DevSecOps%20Learning%20(1).md][Cloud-DevSecOps-Learning/Cloud & DevSecOps Learning (1).md at main · chughes29/Cloud-DevSecOps-Learning]]

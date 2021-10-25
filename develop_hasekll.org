@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       9a52859f-9f6e-4140-8172-70e805a7f5f0
+:public: true
+:END:
+#+TITLE: Develop Haskell
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-10-25 Mon 02:57
+
+
+* [[https://github.com/JonathanLorimer/core-warn][JonathanLorimer/core-warn: Provide warnings for unexpected Core generation]]

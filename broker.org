@@ -2,16 +2,21 @@
 :ID:       dc3677ac-fe1d-4942-86d2-57d1ba09b3b1
 :END:
 #+TITLE: Broker
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-05 Thu 18:38
 
-
-
+* Zeek Broker
+- [2020-11-22 Sun 15:15] <- [[id:c86897c0-c9a8-4de3-85eb-b278de759076][UHH-ISS/honeygrove: A multi-purpose, modular medium-interaction honeypot based on Twisted.]]
+** [[https://zeek.org/2018/07/19/broker-is-coming-part-2-replacing-synchronized/][Zeek: Broker is Coming, Part 2: Replacing &synchronized]]
+:PROPERTIES:
+:ID:       366157c7-95d3-4a4e-9106-d9dc274c8e0f
+:END:
+** [[https://github.com/UHH-ISS/beemaster-bro][UHH-ISS/beemaster-bro]] :learn:
+** [[https://github.com/0ortmann/broker-application-templates][0ortmann/broker-application-templates: Templates for writing applications using Zeek IDS communication library Broker]] :learn:
 
 
 * [[https://github.com/zeek/broker][zeek/broker: Zeek's Messaging Library]]
-
 
 
 * [[https://docs.zeek.org/projects/broker/en/master/][Broker User Manual — Broker User Manual]]

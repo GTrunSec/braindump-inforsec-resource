@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       47f6eaeb-3509-46c7-8991-82e31ac03f43
+:END:
+#+TITLE: learning functional programming
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-10-20 Wed 12:31
+
+
+* [[https://github.com/dewey92/typed-fp-good-reads][dewey92/typed-fp-good-reads: 📚 List of useful resources to learn typed FP]]

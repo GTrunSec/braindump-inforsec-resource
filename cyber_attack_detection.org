@@ -1,11 +1,13 @@
-#+TITLE:Cyber Attack Detection
-#+AUTHOR: GuangTao
+:PROPERTIES:
+:ID:       eed041f7-a67e-412c-95dc-a59ea4461021
+:END:
+#+TITLE: Cyber Attack Detection
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-03 Sun 22:24
 
 
-
-
-
-
 * [[https://github.com/ptresearch/AttackDetection][ptresearch/AttackDetection: Attack Detection]]
+:PROPERTIES:
+:ID:       49a81446-78e1-46c7-944a-061a6f6943aa
+:END:

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       33888401-c2f8-4607-8129-4a6eb8b8f449
+:END:
+#+TITLE: NixOps Roadmap For Hunting Lab
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-10-20 Wed 14:44
+
+
+- tags :: [[id:242ba72d-7167-41ff-a81f-4493194f172b][NixOps Land Security]]
+
+
+* CI/CD

@@ -1,5 +1,5 @@
 #+TITLE: Cyber Security Media
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-03 Sun 22:12
 

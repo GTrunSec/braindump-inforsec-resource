@@ -2,7 +2,7 @@
 :ID:       eb96ccc5-bdd1-47d2-abb5-39fe9a077422
 :END:
 #+TITLE: Threat Hunting
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-20 Fri 00:09
 

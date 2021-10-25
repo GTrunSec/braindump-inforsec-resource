@@ -1,15 +1,15 @@
 :PROPERTIES:
 :ID:       b9195500-625a-4fa8-979e-b7f8c7b59d67
+:public: true
 :END:
 #+TITLE: Apparmor Profiles
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-18 Wed 14:05
-
-
 
 
 * [[https://apparmor.net/][AppArmor]]
 :PROPERTIES:
 :ID:       83ce55a6-e869-4e71-b13b-4bab5de15955
 :END:
+ - [2021-09-24 Fri 22:29] -> [[id:d62b122d-3e0a-4b33-b6f2-b16ba3c2be58][Aaron Jones: Introduction To Firejail, AppArmor, and SELinux - YouTube]]

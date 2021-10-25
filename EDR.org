@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5f73b8ad-0954-47a4-b6d7-4af4063db171
+:END:
+#+TITLE: EDR
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-09-28 Tue 14:36
+
+
+* [[https://github.com/0xrawsec/whids][0xrawsec/whids: Open Source EDR for Windows]]

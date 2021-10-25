@@ -2,7 +2,7 @@
 :ID:       a488700f-7abf-4248-bbaf-3fb8f6d90421
 :END:
 #+TITLE: Red Team
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-21 Mon 15:46
 

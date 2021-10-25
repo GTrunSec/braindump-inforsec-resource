@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       5ed91cfd-201f-400b-a04d-8e7fe8494b2a
+:public: true
+:END:
+#+TITLE: Inforsec Conferences
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-10-25 Mon 12:49
+
+
+
+* [[https://github.com/cryptax/confsec][cryptax/confsec: Security, hacking conferences (list)]]

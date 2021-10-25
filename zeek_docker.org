@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       8a94081f-e984-4eb9-a322-0cb44f16d807
+:END:
+#+TITLE: Zeek to Docker
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-11 Wed 15:42
+
+
+
+* [[https://github.com/0snap/zeek-cluster/blob/master/zeek-ssh-node/Dockerfile][zeek-cluster/Dockerfile at master · 0snap/zeek-cluster]]
+
+
+
+* Commands
+
+#+begin_src sh :async t :exports both :results output
+docker run --net=host --name=zeek --rm -ti zeek-docker:latest /bin/bash
+#+end_src

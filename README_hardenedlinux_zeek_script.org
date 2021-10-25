@@ -1,12 +1,10 @@
 #+TITLE: README hardenedlinux-zeek-script
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 
-
-
-
 - tags :: [[file:awesome_zeek.org][Awesome Zeek]], [[file:cyber_security_media.org][Cyber Security Media]]
+
 * Clone Repo
 :PROPERTIES:
 :header-args:sh: :dir ~/project

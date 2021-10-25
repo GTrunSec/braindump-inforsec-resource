@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       96eb8047-cef8-44cb-87d3-c8beaaa472a1
+:END:
+#+TITLE: TheHive
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-17 Tue 16:38
+
+* [[https://docs.thehive-project.org/thehive/user-guides/quick-start/#first-login][Quick start with TheHive - TheHive Project Documentation]]
